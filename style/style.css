@@ -1,10 +1,10 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: 75px 150px 644px 28px;
@@ -19,38 +19,38 @@ body{
     justify-items: center;
 }
 
-header{
+header {
     height: 75px;
     grid-column: 1/2;
     grid-row: 1/2;
     border-bottom: 0.4px solid #22222280;
 
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 33.3vw);
     grid-template-rows: auto;
 }
 
-header h1{
-font-family: Roboto;
-font-size: 25px;
-font-weight: 400;
-align-self: center;
+header h1 {
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 400;
+    align-self: center;
 
-margin-left: 10px;
+    margin-left: 10px;
 }
 
-header input{
+header input {
     width: 400px;
-height: 40px;
-border-radius: 5px;
-border: 0.3px solid #222222;
+    height: 40px;
+    border-radius: 5px;
+    border: 0.3px solid #222222;
 }
 
-form{
+form {
     display: none;
 }
 
-header img{
+header img {
     border-radius: 100%;
     height: 50px;
     align-self: center;
@@ -60,11 +60,11 @@ header img{
     grid-column: 3/4;
 }
 
-.foto_extra{
+.foto_extra {
     display: none;
 }
 
-.BackgroundHistory{
+.BackgroundHistory {
     border: 0.4px solid #22222280;
     border-radius: 5px;
 
@@ -78,7 +78,7 @@ header img{
     margin-top: 25px;
 }
 
-.BackgroundHistory img{
+.BackgroundHistory img {
     border-radius: 100%;
     height: 60px;
 
@@ -86,7 +86,7 @@ header img{
     justify-self: center;
 }
 
-.Background{
+.Background {
 
     height: 550px;
     border: 0.4px solid #22222280;
@@ -98,39 +98,39 @@ header img{
 
 }
 
-.Background .Top{
+.Background .Top {
     display: grid;
     grid-template-columns: 68px auto auto;
     grid-template-rows: auto;
     border-bottom: 0.4px solid #22222280;
 
-    
+
 }
 
-.Background .Top img{
+.Background .Top img {
     height: 50px;
     border-radius: 100%;
     margin: 9px;
 }
 
-.Top p{
-font-family: Inter;
-font-size: 15px;
-font-weight: 500;
+.Top p {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
 
-align-self: center;
+    align-self: center;
 }
 
-.Top i{
+.Top i {
     font-size: 20px;
     align-self: center;
     justify-self: end;
     margin-right: 9px;
 
-    
+
 }
 
-.Background img{
+.Background img {
     height: 320px;
 
 
@@ -138,37 +138,37 @@ align-self: center;
     align-self: flex-end;
 }
 
-.text{
+.text {
     font-family: Inter;
-font-size: 10px;
-font-weight: 400;
+    font-size: 10px;
+    font-weight: 400;
 
-margin-left: 20px;
+    margin-left: 20px;
 }
 
-.text p{
+.text p {
     padding-bottom: 10px;
 
 }
 
-.Background .text i{
+.Background .text i {
     font-size: 24px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 18px;
 }
 
-.comentarios{
+.comentarios {
     color: #A49B9B;
 }
 
-.text span{
+.text span {
     font-family: Inter;
-font-size: 10px;
-font-weight: 500;
+    font-size: 10px;
+    font-weight: 500;
 }
 
-.seguir{
+.seguir {
     width: 284px;
     height: 175px;
 
@@ -177,58 +177,61 @@ font-weight: 500;
     grid-row: 2/4;
 
     margin-top: 60px;
+
+    display: none;
 }
 
-.top_seguir{
-display: grid;
-grid-template-columns: 63px 1fr 1fr;
-grid-template-rows: 50px;
+.top_seguir {
+    display: grid;
+    grid-template-columns: 63px 1fr 1fr;
+    grid-template-rows: 50px;
 }
 
-.top_seguir div{
+.top_seguir div {
     align-self: flex-end;
 }
 
-.top_seguir img{
+.top_seguir img {
     height: 50px;
     border-radius: 100%;
 }
 
-.top_seguir p{
+.top_seguir p {
     font-family: Inter;
-font-size: 10px;
-font-weight: 500;
+    font-size: 10px;
+    font-weight: 500;
 }
 
-.top_seguir .sobre_mi{
+.top_seguir .sobre_mi {
     font-family: Inter;
     font-size: 10px;
     font-weight: 400;
     color: #808080;
-    
+
 }
 
-.top_seguir .cambiar{
+.top_seguir .cambiar {
     font-family: Inter;
-font-size: 12px;
-font-weight: 500;
-color: #1CA0F6;
+    font-size: 12px;
+    font-weight: 500;
+    color: #1CA0F6;
 
-align-self: center;
-justify-self: end;
+    align-self: center;
+    justify-self: end;
 }
 
-.seguir .sugerencia{
+.seguir .sugerencia {
     font-family: Inter;
-font-size: 10px;
-font-weight: 700;
-color: #808080;
+    font-size: 10px;
+    font-weight: 700;
+    color: #808080;
 
-align-self: flex-end;
-margin-bottom: 10px;
+    align-self: flex-end;
+    margin-bottom: 10px;
+    margin-top: 34px;
 }
 
-.perfiles{
+.perfiles {
     display: grid;
     grid-template-columns: 35px 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -236,88 +239,95 @@ margin-bottom: 10px;
     align-items: center;
 }
 
-.perfiles img{
+.perfiles img {
     height: 30px;
     border-radius: 100%;
 }
 
-.perfiles .nombre{
+.perfiles .nombre {
     font-family: Inter;
-font-size: 10px;
-font-weight: 500;
+    font-size: 10px;
+    font-weight: 500;
 }
 
-.perfiles .b_seguir{
+.perfiles .b_seguir {
     font-family: Inter;
-font-size: 12px;
-font-weight: 400;
-color: #1CA0F6;
+    font-size: 12px;
+    font-weight: 400;
+    color: #1CA0F6;
 
-justify-self: end;
-margin-right: 10px;
+    justify-self: end;
+    margin-right: 10px;
 }
 
-footer{
+footer {
     height: 28px;
     width: 100%;
 
     background-color: #222222;
+
+    display: grid;
+
+    align-items: center;
+    justify-items: center;
 }
 
 /* corregir padding top */
-footer p{
+footer p {
     font-family: Roboto;
-font-size: 10px;
-font-weight: 400;
-color: #FFFFFF;
-text-align: center;
-padding-top: 6px;
+    font-size: 10px;
+    font-weight: 400;
+    color: #FFFFFF;
 }
 
-@media (min-width: 1024px){
-    body{
+@media (min-width: 1240px) {
+    body {
         grid-template-columns: 50vw 50vw;
         grid-template-rows: 75px 150px 812px 28px;
     }
 
-    header{
+    header {
         grid-column: 1/3;
     }
 
-    form{
+    form {
         display: block;
         align-self: center;
     }
 
-    .Background{
+    .Background {
         grid-column: 1/2;
 
     }
 
-    footer{
+    footer {
         grid-column: 1/3;
         grid-row: 4/5;
     }
 
-    .BackgroundHistory{
+    .BackgroundHistory {
         grid-template-columns: repeat(7, 80px);
         width: 600px;
-        
+
     }
 
-    .foto_extra{
+    .foto_extra {
         display: block;
     }
 
-    .Background{
+    .Background {
         width: 600px;
         height: 720px;
         grid-template-columns: 600px;
         grid-template-rows: 68px 508px 142px;
     }
 
-    .Background img{
+    .Background img {
         height: 488px;
     }
 
+    .seguir {
+        display: block;
     }
+
+}
