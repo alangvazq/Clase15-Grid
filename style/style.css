@@ -280,7 +280,7 @@ footer p {
     color: #FFFFFF;
 }
 
-@media (min-width: 1240px) {
+@media (min-width: 1024px) {
     body {
         grid-template-columns: 50vw 50vw;
         grid-template-rows: 75px 150px 812px 28px;
